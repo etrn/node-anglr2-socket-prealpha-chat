@@ -1,0 +1,31 @@
+{
+  "name": "pre-alpha-chat",
+  "version": "0.0.1",
+  "description": "Simple multi room chat aplication using Node.js, Angular2, Socket.io and MongoDB ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etrn/node-anglr2-socket-prealpha-chat.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "etrn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etrn/node-anglr2-socket-prealpha-chat/issues"
+  },
+  "homepage": "https://github.com/etrn/node-anglr2-socket-prealpha-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "socket.io": "^1.7.3"
+  }
+}
